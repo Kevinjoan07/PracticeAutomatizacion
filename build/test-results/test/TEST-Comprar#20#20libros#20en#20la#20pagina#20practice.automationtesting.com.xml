@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Comprar  libros en la pagina practice.automationtesting.com" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-25T19:50:32" hostname="SQAKMOSQUERA" time="39.322">
+<testsuite name="Comprar  libros en la pagina practice.automationtesting.com" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-28T21:22:48" hostname="SQAKMOSQUERA" time="29.376">
   <properties/>
-  <testcase name="comprar 2 libros de forma exitosa" classname="Comprar  libros en la pagina practice.automationtesting.com" time="39.322"/>
+  <testcase name="comprar 2 libros de forma exitosa" classname="Comprar  libros en la pagina practice.automationtesting.com" time="29.376"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 13098
+  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 8255
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-jul 25, 2022 2:50:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+jul 28, 2022 4:22:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
