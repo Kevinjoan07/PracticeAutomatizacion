@@ -29,9 +29,9 @@ public class BuscarVuelo implements Task {
         actor.attemptsTo(Enter.theValue(origen).into(PAIS_ORIGEN).thenHit(Keys.ARROW_DOWN).thenHit(Keys.ENTER),
                 Enter.theValue(destino).into(PAIS_DESTINO).thenHit(Keys.ARROW_DOWN).thenHit(Keys.ENTER),
                 Click.on(CAMPO_FECHA_SALIDA), Click.on(FECHA_SALIDA),
-                Click.on(CAMPO_FECHA_VUELTA),Click.on(FECHA_VUELTA),
-                Click.on(PASAJEROS), DoubleClick.on(NUMERO_PASAJEROS),
-                Click.on(BTN_BUSCAR_VUELOS));
+                Click.on(FECHA_VUELTA),Click.on(PASAJEROS),
+                DoubleClick.on(NUMERO_PASAJEROS),Click.on(BTN_BUSCAR_VUELOS)
+        );
 
 
 

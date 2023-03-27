@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Automatizar pagina de viajes" skipped="0" tests="1" time="17.32" timestamp="2023-03-24 04:48:39"><testcase name="Comprar de tiquetes"><error message="java.lang.reflect.InvocationTargetException&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'QV-4403', ip: '172.28.7.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.json.JsonException">java.lang.reflect.InvocationTargetException
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Automatizar pagina de viajes" skipped="0" tests="1" time="17.63" timestamp="2023-03-27 09:10:00"><testcase name="Comprar de tiquetes"><error message="java.lang.reflect.InvocationTargetException&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'QV-4403', ip: '172.28.7.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.json.JsonException">java.lang.reflect.InvocationTargetException
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'QV-4403', ip: '172.28.7.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
 Driver info: driver.version: RemoteWebDriver</error><system-err>java.lang.reflect.InvocationTargetException
@@ -6,7 +6,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'QV-4403', ip: '172.28.7.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
 Driver info: driver.version: RemoteWebDriver&#13;
 com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)&#13;
-co.com.copaair.tasks.BuscarVuelo.performAs(BuscarVuelo.java:28)&#13;
+co.com.copaair.tasks.BuscarVuelo.performAs(BuscarVuelo.java:29)&#13;
 co.com.copaair.StepDefinitions.comprarVueloStepDefinition.realizoLaBusquedaDeUnVueloDesdeElHastaEl(comprarVueloStepDefinition.java:33)&#13;
 cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
 worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
