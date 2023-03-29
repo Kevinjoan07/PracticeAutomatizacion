@@ -6,4 +6,4 @@ Feature: Automatizar pagina de viajes
     Then para obtener el mensaje <Mensaje> en la pagina
     Examples:
       | url |ciudad_origen|ciudad_destino|fecha_salida|fecha_regreso|Mensaje|
-      | "https://www.avianca.com/co/es/" | "medellin" |"bogota" |"2023.3.30"|"2023.4.11"|"texto_validacion"|
+      | "https://www.avianca.com/co/es/" | "medellin" |"bogota" |"2023.3.30"|"2023.4.16"|"texto_validacion"|

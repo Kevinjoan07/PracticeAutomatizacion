@@ -31,7 +31,7 @@ public class comprarVueloStepDefinition {
     @When("^realizo la busqueda de un vuelo desde \"([^\"]*)\" el \"([^\"]*)\", hasta \"([^\"]*)\" el \"([^\"]*)\"$")
     public void realizoLaBusquedaDeUnVueloDesdeElHastaEl(String origen, String fecha_origen, String destino, String fecha_destino) {
         OnStage.theActorInTheSpotlight().attemptsTo(
-                BuscarVuelo.on(origen,fecha_origen,destino)
+                BuscarVuelo.on(origen,fecha_origen,destino,fecha_destino)
         );
     }
 
